@@ -28,6 +28,7 @@
    - `128.119.245.12` ==> `gaia.cs.umass.edu`
    - `178.78.137.164` ==> `kurose.cslash.net`  
      **Remarque:** 1er HTTP GET ==> `128.119.245.12` renvoie une reponse qui contient du texte brut (contenu de la page ) puis se rend compte qu'on une image à afficher et un lien à ouvrir. Il refait donc des requetes HTTP GET pour répondre au 2e et 3e
+3. Est-il possible de savoir si votre navigateur a telecharge les images de facon sequentielle ou si elles ont ete telechargees en parallele ou sequentielle ? `Oui` parce que les port de réponses sont differentes
 
 # Author
 
